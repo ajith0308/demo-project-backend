@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8000", "http://localhost:4200"],
+    allow_origins=["http://localhost:8000", "http://localhost:4200","https://your-render-domain.com", "https://onrender.com/", "https://mynexttcs.000webhostapp.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
