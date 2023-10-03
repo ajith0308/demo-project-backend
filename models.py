@@ -11,3 +11,5 @@ class Users(Base):
     email = Column(String, unique=True)
     gender = Column(String)
     phone_number = Column(String)
+    username = Column(String, unique=True)
+    hashed_password = Column(String)
